@@ -1,0 +1,9 @@
+/*Classe criada para fazer o grid, esse max-width foi pegado direto do figma*/
+.container{
+    width: 100%;
+    /*somou a grid de 1216 com o padding de 30 px nas laterais*/
+    max-width: 1246px;
+    margin: 0 auto;
+    /*Padding utilizado nas laterais para facilitar no momento de responsividade e ter um respiro nas laterais quando a resolução da tela diminuir. */
+    padding: 0px 15px;
+}

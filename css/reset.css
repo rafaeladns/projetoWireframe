@@ -1,0 +1,27 @@
+/* seletor * seleciona todas as tags existentes no nosso site */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+img{
+    /*Colocar max-width por questão de responsividade, ou seja quando a tela ficar menor a imagem irá se ajustar a tela */
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+

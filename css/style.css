@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    height: 8.8rem;
+    background-color: var(--gray--colors-800);
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header .menu-mobile{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 3.2rem;
+}
+
+header nav ul li{
+    margin-left: 3.2rem;
+}
+
+header nav ul li:first-child{ /*Zerando a margin do primeiro elemento da li pois é uma margem desnecessária*/
+    margin-left: 0px;
+}
+
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+header nav .btn-primary{
+    padding: 0.9rem 3.4rem;
+}
+/*Parei em 09:21 */
+

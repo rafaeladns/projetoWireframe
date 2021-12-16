@@ -1,0 +1,26 @@
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+    header nav{
+        display: none;
+    }
+    header .menu-mobile{
+        display: block;
+    }
+}
+
+@media(max-width: 769px){
+
+}
+
+@media(max-width: 600px){
+
+}
+
+@media(max-width: 480px){
+    header .logo{
+        max-width: 130px;
+    }
+}

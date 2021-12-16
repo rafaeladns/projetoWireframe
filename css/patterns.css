@@ -1,0 +1,45 @@
+h1, h2, h3{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    line-height: 125%; /*A propriedade CSS line-height permite controlar o espaçamento entre as linhas de um texto*/
+    letter-spacing: -1px; /*Espaçamento entre letras*/
+    color: var(--white);
+}
+
+h1{
+    font-size: 4.8rem; /*Dividir o valor por 10 antes era 48 e agora 4.8rem*/
+    color: var(--gray--colors-100)/*Utilizando a variável de cor que foi criada com root, e o !important pode ser usado para dar prioridade pra essa cor*/
+}
+
+h2{
+    font-size: 3.2rem;
+
+}
+
+h3{
+    font-size: 2.4rem;
+
+}
+
+.btn-primary{
+    display: inline-block; /*Centralizar*/
+    font-family: 'Sora', sans-serif;
+    background-color: var(--brand--colors-pink);
+    padding: 1.2rem 3.4rem; /*1.2 rem em cima e em baixo e 3.4rem nas laterais*/
+    font-weight: 600;
+    /* font-size: 1.6rem; o valor da font-size padrão já foi definida no reset css*/
+    /* line-height: 100%; é o padrão do navegador*/
+    letter-spacing: -0.01em;
+    color: var(--gray--colors-100);
+}
+
+.menu-item{
+    display: inline-block;
+    background-color: var(--gray--colors-50);
+    padding: 1.2rem 2.4rem; /*1.2rem em cima e em baixo e 2.4rem nas laterais*/
+    font-family: 'Sora', sans-serif;
+    color: var(--gray--colors-400);
+    font-size: 1.5rem;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+}
