@@ -1,3 +1,5 @@
+/*Style Header*/
+
 header{
     width: 100%;
     height: 8.8rem;
@@ -40,5 +42,45 @@ header nav ul li:last-child{
 header nav .btn-primary{
     padding: 0.9rem 3.4rem;
 }
-/*Parei em 09:21 */
 
+/*Style Section Hero*/
+.s-hero{
+    padding: 7.2rem 0; /*7.2rem em cima e em baixo e 0 nas laterais*/
+}
+
+.s-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-hero .text{
+    width: 100%;
+    max-width: 640px; /*ocupa 100% de largura mas vai deixar o máximo de 640px para facilitar na responsividade*/
+}
+
+.s-hero .text h1{
+    margin-bottom: 2.0rem;
+}
+
+.s-hero .text p{
+    margin-bottom: 5.6rem;
+    max-width: 488px;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--gray--colors-300);
+}
+
+.s-hero .text .btn-primary{
+    padding: 1.7rem 3.7rem; /*Em botões não utilizar width e height para aumentar largura e altura, utilizar padding para evitar que o conteúdo de texto vaze*/
+}
+
+.s-hero .image{
+    width: 100%;
+    max-width: 488px;
+    height: 496px;
+    background-color: var(--gray--colors-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

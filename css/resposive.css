@@ -1,5 +1,7 @@
 @media(max-width: 1200px){
-
+    .s-hero .text{
+        max-width: 49%;
+    }
 }
 
 @media(max-width: 991px){
@@ -8,6 +10,23 @@
     }
     header .menu-mobile{
         display: block;
+    }
+    .s-hero .container{
+        flex-direction: column;
+    }
+    .s-hero .text{
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-hero .text h1{
+        text-align: center;
+    }
+
+    .s-hero .text p{
+        text-align: center;
     }
 }
 
@@ -19,8 +38,32 @@
 
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px){/*Celulares*/
+    html { /*A partir de 480px o font-size terá o tamanho de 55% em todo html*/
+        font-size: 55%;
+    }
+
     header .logo{
         max-width: 130px;
+    }
+
+    .s-hero{
+        padding: 4rem 0px; /*Tentar padronizar o padding em dispositivos móveis para 4rem em cima e em baixo e 0 nas laterais*/
+    }
+
+    .s-hero .text p{
+        margin-bottom: 3rem;
+    }
+
+    .s-hero .image{
+        height: 30rem;
+    }
+
+    .s-hero .image img{
+        max-width: 100px;
+    }
+
+    h1{
+        font-size: 4.2rem;
     }
 }
